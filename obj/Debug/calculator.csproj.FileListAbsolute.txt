@@ -1,0 +1,15 @@
+C:\Users\khuts\source\repos\calculator\bin\Debug\calculator.exe.config
+C:\Users\khuts\source\repos\calculator\bin\Debug\calculator.exe
+C:\Users\khuts\source\repos\calculator\bin\Debug\calculator.pdb
+C:\Users\khuts\source\repos\calculator\obj\Debug\calculator.csprojAssemblyReference.cache
+C:\Users\khuts\source\repos\calculator\obj\Debug\MainWindow.g.cs
+C:\Users\khuts\source\repos\calculator\obj\Debug\App.g.cs
+C:\Users\khuts\source\repos\calculator\obj\Debug\calculator_MarkupCompile.cache
+C:\Users\khuts\source\repos\calculator\obj\Debug\calculator_MarkupCompile.lref
+C:\Users\khuts\source\repos\calculator\obj\Debug\MainWindow.baml
+C:\Users\khuts\source\repos\calculator\obj\Debug\calculator.g.resources
+C:\Users\khuts\source\repos\calculator\obj\Debug\calculator.Properties.Resources.resources
+C:\Users\khuts\source\repos\calculator\obj\Debug\calculator.csproj.GenerateResource.cache
+C:\Users\khuts\source\repos\calculator\obj\Debug\calculator.csproj.CoreCompileInputs.cache
+C:\Users\khuts\source\repos\calculator\obj\Debug\calculator.exe
+C:\Users\khuts\source\repos\calculator\obj\Debug\calculator.pdb
