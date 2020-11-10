@@ -230,3 +230,8 @@ _Pvt_Extensions
 .fake/
 *.binlog
 /.dotnet
+
+# bin and obj
+bin/
+obj/
+Debug/
