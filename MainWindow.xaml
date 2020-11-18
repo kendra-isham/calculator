@@ -43,7 +43,7 @@
         <Button x:Name="threeButton" Content="3" Click="OnNum" Grid.Column="3" Grid.Row="5" Background="White" FontSize="18"/>
         <Button x:Name="addButton" Content="+"  Click="OnOperator" Grid.Column="4" Grid.Row="5" Background="Gray" FontSize="18"/>
         <Button x:Name="zeroButton" Content="0" Click="OnNum" Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="6" Background="White" />
-        <Button x:Name="decimalButton" Content="."  Click="OnOperator" Grid.Column="3" Grid.Row="6" Background="Gray" FontSize="18"/>
+        <Button x:Name="decimalButton" Content="."  Click="OnNum" Grid.Column="3" Grid.Row="6" Background="Gray" FontSize="18"/>
         <Button x:Name="equalButton" Content="="  Click="OnEqual" Grid.Column="4" Grid.Row="6" Background="Gray" FontSize="18"/>
     </Grid>
 </Window>

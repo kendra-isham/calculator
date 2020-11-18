@@ -16,7 +16,6 @@ using System.Diagnostics;
 
 //TODO: 
 // divide by zero
-// accept decimal input 
 // clean up type casts 
 // accept more than 2 numbers before equal'ing out 
 namespace calculator
