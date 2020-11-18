@@ -5,45 +5,45 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:calculator"
         mc:Ignorable="d"
-        Title="Calculator" Height="358.235" Width="380.918" Background="#FF5FA8FF" Opacity="0.75" FontFamily="Calibri" FontSize="14">
+        Title="Calculator" Height="288.896" Width="250.853" Background="Azure" Opacity="0.75" FontFamily="Calibri" FontSize="14">
     <Grid Margin="0,0,5.5,9.5">
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="10" />
+            <ColumnDefinition Width="1" />
             <ColumnDefinition Width="*" />
             <ColumnDefinition Width="*" />
             <ColumnDefinition Width="*" />
             <ColumnDefinition Width="*" />
-            <ColumnDefinition Width="10" />
+            
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
-            <RowDefinition Height="10" />
+            <RowDefinition Height="5" />
             <RowDefinition Height="*" />
             <RowDefinition Height="*" />
             <RowDefinition Height="*" />
             <RowDefinition Height="*" />
             <RowDefinition Height="*" />
             <RowDefinition Height="*" />
-            <RowDefinition Height="10" />
+         
         </Grid.RowDefinitions>
-        <Label Content="Results" Grid.Column="1" Grid.ColumnSpan="4" Grid.Row="1" Background="White" FontSize="20" Width="350"/>
-        <Button Content="C" Grid.Column="1" Grid.Row="2" Background="White" FontSize="18"/>
-        <Button Content="+/-"  Grid.Column="2" Grid.Row="2" Background="White" FontSize="18"/>
-        <Button Content="%"  Grid.Column="3" Grid.Row="2" Background="White" FontSize="18"/>
-        <Button Content="/"  Grid.Column="4" Grid.Row="2" Background="White" FontSize="18"/>
-        <Button Content="7"  Grid.Column="1" Grid.Row="3" Background="White" FontSize="18"/>
-        <Button Content="8"  Grid.Column="2" Grid.Row="3" Background="White" FontSize="18"/>
-        <Button Content="9"  Grid.Column="3" Grid.Row="3" Background="White" FontSize="18"/>
-        <Button Content="*"  Grid.Column="4" Grid.Row="3" Background="White" FontSize="18"/>
-        <Button Content="4"  Grid.Column="1" Grid.Row="4" Background="White" FontSize="18"/>
-        <Button Content="5"  Grid.Column="2" Grid.Row="4" Background="White" FontSize="18"/>
-        <Button Content="6"  Grid.Column="3" Grid.Row="4" Background="White" FontSize="18"/>
-        <Button Content="-"  Grid.Column="4" Grid.Row="4" Background="White" FontSize="18"/>
-        <Button Content="1"  Grid.Column="1" Grid.Row="5" Background="White" FontSize="18"/>
-        <Button Content="2"  Grid.Column="2" Grid.Row="5" Background="White" FontSize="18"/>
-        <Button Content="3"  Grid.Column="3" Grid.Row="5" Background="White" FontSize="18"/>
-        <Button Content="+"  Grid.Column="4" Grid.Row="5" Background="White" FontSize="18"/>
-        <Button Content="0"  Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="6" Background="White" FontSize="18"/>
-        <Button Content="."  Grid.Column="3" Grid.Row="6" Background="White" FontSize="18"/>
-        <Button Content="="  Grid.Column="4" Grid.Row="6" Background="White" FontSize="18"/>
+        <TextBox x:Name="display" Grid.Column="1" Grid.ColumnSpan="4" Grid.Row="1" Background="White" FontSize="20"/>
+        <Button x:Name="resetButton" Content="C" Click="OnClear" Grid.Column="1" Grid.Row="2" Background="IndianRed" FontSize="18"/>
+        <Button x:Name="switchSignButton" Content="+/-" Click="OnOperator" Grid.Column="2" Grid.Row="2" Background="Gray" FontSize="18"/>
+        <Button x:Name="modulsButton" Content="^"  Click="OnOperator" Grid.Column="3" Grid.Row="2" Background="Gray" FontSize="18"/>
+        <Button x:Name="divisionButton" Content="/"  Click="OnOperator" Grid.Column="4" Grid.Row="2" Background="Gray" FontSize="18"/>
+        <Button x:Name="sevenButton" Content="7" Click="OnNum" Grid.Column="1" Grid.Row="3" Background="White" FontSize="18"/>
+        <Button x:Name="eightButton" Content="8" Click="OnNum" Grid.Column="2" Grid.Row="3" Background="White" FontSize="18"/>
+        <Button x:Name="nineButton" Content="9" Click="OnNum"  Grid.Column="3" Grid.Row="3" Background="White" FontSize="18"/>
+        <Button x:Name="multiplyButton" Content="*"  Click="OnOperator" Grid.Column="4" Grid.Row="3" Background="Gray" FontSize="18"/>
+        <Button x:Name="fourButton" Content="4" Click="OnNum" Grid.Column="1" Grid.Row="4" Background="White" FontSize="18"/>
+        <Button x:Name="fiveButton" Content="5" Click="OnNum" Grid.Column="2" Grid.Row="4" Background="White" FontSize="18"/>
+        <Button x:Name="sixButton" Content="6" Click="OnNum" Grid.Column="3" Grid.Row="4" Background="White" FontSize="18"/>
+        <Button x:Name="subtractButton" Content="-"  Click="OnOperator" Grid.Column="4" Grid.Row="4" Background="Gray" FontSize="18"/>
+        <Button x:Name="oneButton" Content="1"  Click="OnNum" Grid.Column="1" Grid.Row="5" Background="White" FontSize="18"/>
+        <Button x:Name="twoButton" Content="2" Click="OnNum" Grid.Column="2" Grid.Row="5" Background="White" FontSize="18"/>
+        <Button x:Name="threeButton" Content="3" Click="OnNum" Grid.Column="3" Grid.Row="5" Background="White" FontSize="18"/>
+        <Button x:Name="addButton" Content="+"  Click="OnOperator" Grid.Column="4" Grid.Row="5" Background="Gray" FontSize="18"/>
+        <Button x:Name="zeroButton" Content="0" Click="OnNum" Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="6" Background="White" />
+        <Button x:Name="decimalButton" Content="."  Click="OnOperator" Grid.Column="3" Grid.Row="6" Background="Gray" FontSize="18"/>
+        <Button x:Name="equalButton" Content="="  Click="OnEqual" Grid.Column="4" Grid.Row="6" Background="Gray" FontSize="18"/>
     </Grid>
 </Window>
